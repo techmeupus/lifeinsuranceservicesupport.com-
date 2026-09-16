@@ -1,0 +1,31 @@
+export const SITE_CONFIG = {
+  name: "Life Insurance Service Support",
+  legalName: "Zinabelle Inc.",
+  domain: "lifeinsuranceservicesupport.com",
+  url: "https://lifeinsuranceservicesupport.com",
+  phone: "(888) 555-0199",
+  phoneRaw: "+18885550199",
+  email: "support@lifeinsuranceservicesupport.com",
+  address: {
+    street: "1309 Coffeen Avenue STE 1200",
+    city: "Sheridan",
+    state: "WY",
+    zip: "82801",
+    country: "US"
+  },
+  operatingHours: "Monday - Friday: 8:00 AM – 8:00 PM EST",
+  year: 2026,
+  colors: {
+    primary: "#0a3866", // Navy Blue matching logo
+    primaryDark: "#062343",
+    secondary: "#009688", // Teal matching logo
+    secondaryDark: "#00796b",
+    secondaryLight: "#e0f2f1",
+    accent: "#028090",
+    white: "#ffffff",
+    slateLight: "#f8fafc",
+    slateBorder: "#e2e8f0",
+    textDark: "#0f172a",
+    textMuted: "#475569"
+  }
+};
