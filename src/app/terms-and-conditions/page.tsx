@@ -33,10 +33,13 @@ export default function TermsPage() {
           <p>
             <strong>Zinabelle Inc is not an insurance company, insurance agency, underwriter, or broker.</strong> We do not issue, underwrite, approve, price, sell, or administer life insurance policies. Zinabelle Inc is not directly affiliated with, sponsored by, endorsed by, or operated by any insurance carrier.
           </p>
+          <p>
+            Zinabelle Inc operates independently and does not represent itself as an insurance carrier or as the official website, customer-service department, claims department, or policy-service department of any insurance carrier. We do not service existing insurance policies, process carrier claims, change beneficiaries, cancel policies, handle premium payments, or provide official carrier support.
+          </p>
 
           <h2>2. No Guarantee of Eligibility, Coverage, or Pricing</h2>
           <p>
-            Submitting an information request through this website does not constitute a formal insurance application and does not guarantee that you will be approved for insurance coverage or receive specific premium rates. Any rate, quote, coverage amount, or policy issuance is subject to individual underwriting guidelines and decisions made exclusively by issuing insurance carriers and evaluated by licensed agents.
+            Submitting an information request through this website does not constitute a formal insurance application and does not guarantee that you will be approved for insurance coverage or receive specific premium rates. Any rate, quote, coverage amount, or policy issuance is subject to individual underwriting guidelines and decisions made exclusively by issuing insurance carriers and evaluated by appropriately licensed independent insurance agents.
           </p>
 
           <h2>3. Accuracy of Information Provided</h2>
@@ -51,7 +54,7 @@ export default function TermsPage() {
 
           <h2>4. Telephone Consumer Protection Act (TCPA) Consent</h2>
           <p>
-            By providing your phone number and submitting our lead inquiry form, you authorize Zinabelle Inc and matched independent insurance agents to contact you via voice telephone calls, automatic dialing mechanisms, text messages (SMS), or pre-recorded messages, even if your phone number is registered on a state or national Do Not Call list. You may revoke consent at any time.
+            By providing your phone number and submitting our lead inquiry form, you authorize Zinabelle Inc and matched appropriately licensed independent insurance agents to contact you via voice telephone calls, automatic dialing mechanisms, text messages (SMS), or pre-recorded messages, even if your phone number is registered on a state or national Do Not Call list. You may revoke consent at any time.
           </p>
 
           <h2>5. Intellectual Property</h2>

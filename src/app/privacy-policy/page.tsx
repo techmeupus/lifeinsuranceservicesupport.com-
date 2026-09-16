@@ -50,8 +50,8 @@ export default function PrivacyPolicyPage() {
             <strong>We do not sell your personal information to unvetted third parties for unrelated marketing.</strong> Your information is shared under the following specific circumstances:
           </p>
           <ul>
-            <li><strong>Independent Insurance Agents:</strong> When you submit a request for information, your details are transmitted to licensed independent insurance professionals or authorized referral partners who can contact you to fulfill your inquiry.</li>
-            <li><strong>Service Providers:</strong> We work with trusted technology and infrastructure vendors (such as hosting, analytics, and security providers) operating under strict confidentiality obligations.</li>
+            <li><strong>Independent Insurance Agents &amp; Referral Partners:</strong> When you request information or contact our referral service, your details may be transmitted to appropriately licensed independent insurance agents, authorized referral partner entities, marketplaces, qualification call centers, or lead-routing networks solely for the purpose of facilitating a connection with an appropriately licensed insurance professional who can fulfill your inquiry.</li>
+            <li><strong>Service Providers:</strong> We work with trusted technology, communication, and infrastructure vendors (such as hosting, telephony, analytics, and security providers) operating under confidentiality obligations.</li>
             <li><strong>Legal &amp; Regulatory Compliance:</strong> We may disclose information if required by subpoena, court order, regulatory investigation, or applicable federal and state laws.</li>
           </ul>
 

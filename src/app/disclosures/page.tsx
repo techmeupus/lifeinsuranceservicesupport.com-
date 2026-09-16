@@ -50,15 +50,20 @@ export default function DisclosuresPage() {
 
           <h2>4. Advertising Disclosure</h2>
           <p>
-            This website is an advertising and referral marketplace. Participating licensed agents may compensate Zinabelle Inc for consumer connection referrals. This compensation does not influence the objectivity of the educational information presented on this site, nor does it impact any rates or policy terms established by third-party insurance carriers.
+            This website is an advertising and referral marketplace. Participating appropriately licensed independent insurance agents may compensate Zinabelle Inc for consumer connection referrals. This compensation does not influence the objectivity of the educational information presented on this site, nor does it impact any rates or policy terms established by third-party insurance carriers.
           </p>
 
           <h2>5. Geographic Availability</h2>
           <p>
-            Products, coverages, and policies discussed by licensed agents are subject to state regulatory approvals and may not be available in all 50 U.S. states.
+            Products, coverages, and policies discussed by appropriately licensed independent insurance agents are subject to state regulatory approvals and may not be available in all 50 U.S. states.
           </p>
 
-          <h2>6. Questions &amp; Support</h2>
+          <h2>6. No Existing-Policy Servicing or Carrier Support</h2>
+          <p>
+            Zinabelle Inc operates independently and does not represent itself as an insurance carrier or as the official website, customer-service department, claims department, or policy-service department of any insurance carrier. Zinabelle Inc does not service existing insurance policies, handle carrier customer service, process insurance claims, change beneficiaries, cancel existing policies, handle premium payments, or provide official carrier support.
+          </p>
+
+          <h2>7. Questions &amp; Support</h2>
           <p>
             If you have questions regarding these disclosures or our referral service, please contact us:
           </p>

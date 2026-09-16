@@ -5,18 +5,22 @@ export default function HowItWorks() {
   const steps = [
     {
       number: '1',
-      title: 'Call or Request Information',
-      description: 'Call our toll-free line and provide basic details regarding your coverage preferences so we can help connect you with an appropriately licensed independent insurance agent.',
+      title: 'Request Information',
+      description: 'Provide the requested information so we can help connect you with an appropriately licensed independent insurance agent.',
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
       )
     },
     {
       number: '2',
       title: 'Connect With an Independent Agent',
-      description: 'Your inquiry is referred to a licensed independent insurance agent authorized in your state who can discuss life insurance options that may be available to you.',
+      description: 'Your request may be referred to an appropriately licensed independent insurance agent who can discuss life insurance options that may be available to you.',
       icon: (
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
@@ -46,7 +50,7 @@ export default function HowItWorks() {
           <span className="section-tag">Step-by-Step Transparency</span>
           <h2 className="section-title">How Our Service Works</h2>
           <p className="section-desc">
-            We simplify the process of exploring life insurance coverage by connecting you directly with licensed independent insurance agents over the phone.
+            We help consumers connect with appropriately licensed independent insurance agents who can provide information about available life insurance options.
           </p>
         </div>
 
@@ -60,20 +64,20 @@ export default function HowItWorks() {
           ))}
         </div>
 
-        {/* Quick Call Action */}
+        {/* CTA to Connect */}
         <div style={{ textAlign: 'center', marginTop: '2.5rem' }}>
           <a href={`tel:${SITE_CONFIG.phoneRaw}`} className="btn btn-call btn-lg">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
               <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
             </svg>
-            <span>Speak With an Agent: {SITE_CONFIG.phone}</span>
+            <span>Call to Connect With an Independent Agent: {SITE_CONFIG.phone}</span>
           </a>
         </div>
 
         {/* Mandatory Underwriting & Non-Carrier Notice */}
         <div className="service-underwriting-note">
           <p>
-            <strong>Important Process Notice:</strong> Any insurance application, underwriting decision, premium, coverage amount, policy issuance, or approval is handled by the applicable licensed insurance professional and insurance carrier—<strong>not by Zinabelle Inc</strong>.
+            Any insurance application, underwriting decision, premium, coverage amount, policy issuance, or approval is handled by the applicable licensed insurance professional and insurance carrier—not by Zinabelle Inc.
           </p>
         </div>
       </div>

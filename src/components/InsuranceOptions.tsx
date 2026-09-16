@@ -43,20 +43,20 @@ export default function InsuranceOptions() {
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span>Fixed level premiums for duration</span>
+                  <span>Level premiums during the specified initial term</span>
                 </li>
                 <li>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span>Popular for mortgage &amp; family protection</span>
+                  <span>Commonly designed for mortgage &amp; family protection</span>
                 </li>
               </ul>
               <a href={`tel:${SITE_CONFIG.phoneRaw}`} className="btn btn-call" style={{ width: '100%' }}>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
-                <span>Call About Term Life</span>
+                <span>Connect About Term Life</span>
               </a>
             </div>
           </article>
@@ -76,27 +76,27 @@ export default function InsuranceOptions() {
             <div className="option-card-body">
               <h3 className="option-card-title">Whole Life Insurance</h3>
               <p className="option-card-text">
-                Learn about permanent life insurance and how whole life coverage generally works. Offers lifelong protection alongside a cash value accumulation component that may grow over time.
+                Learn about permanent life insurance and how whole life coverage generally works. Whole life insurance is a type of permanent life insurance that may provide lifetime coverage when applicable policy requirements are satisfied.
               </p>
               <ul className="option-card-features">
                 <li>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span>Coverage guaranteed for a lifetime</span>
+                  <span>Designed to provide permanent coverage, subject to the terms and conditions of the policy</span>
                 </li>
                 <li>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span>Potential cash value accumulation</span>
+                  <span>Potential cash value accumulation component</span>
                 </li>
               </ul>
               <a href={`tel:${SITE_CONFIG.phoneRaw}`} className="btn btn-call" style={{ width: '100%' }}>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
-                <span>Call About Whole Life</span>
+                <span>Connect About Whole Life</span>
               </a>
             </div>
           </article>
@@ -124,7 +124,7 @@ export default function InsuranceOptions() {
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span>Covers funeral, memorial, &amp; debts</span>
+                  <span>May assist with funeral, memorial, &amp; personal debts</span>
                 </li>
                 <li>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
@@ -137,7 +137,7 @@ export default function InsuranceOptions() {
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
-                <span>Call About Final Expense</span>
+                <span>Connect About Final Expense</span>
               </a>
             </div>
           </article>
@@ -159,27 +159,27 @@ export default function InsuranceOptions() {
             <div className="option-card-body">
               <h3 className="option-card-title">Other Life Insurance Options</h3>
               <p className="option-card-text">
-                A licensed independent insurance agent can discuss insurance products that may be available based on your individual circumstances and eligibility, including universal, indexed, and variable options.
+                An appropriately licensed independent insurance agent can discuss insurance products that may be available based on your individual circumstances and eligibility, including universal, indexed, and variable options.
               </p>
               <ul className="option-card-features">
                 <li>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span>Universal &amp; flexible premium plans</span>
+                  <span>Universal &amp; flexible premium options</span>
                 </li>
                 <li>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  <span>Personalized consultation tailored to you</span>
+                  <span>Consultation tailored to your eligibility</span>
                 </li>
               </ul>
               <a href={`tel:${SITE_CONFIG.phoneRaw}`} className="btn btn-call" style={{ width: '100%' }}>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
-                <span>Connect With an Agent</span>
+                <span>Connect With an Independent Agent</span>
               </a>
             </div>
           </article>

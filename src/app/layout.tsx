@@ -8,49 +8,25 @@ import { SITE_CONFIG } from '@/config/site';
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.url),
   title: {
-    default: 'Connect With Licensed Independent Life Insurance Agents | LifeInsuranceServiceSupport.com',
-    template: '%s | LifeInsuranceServiceSupport.com'
+    default: 'Connect With Appropriately Licensed Independent Insurance Agents | LifeInsuranceServiceSupport.com',
+    template: `%s | ${SITE_CONFIG.name}`
   },
   description: 'LifeInsuranceServiceSupport.com connects consumers with appropriately licensed independent insurance agents to explore term life, whole life, and final expense coverage. Owned and operated by Zinabelle Inc.',
   keywords: [
     'life insurance',
-    'licensed insurance agent',
+    'appropriately licensed independent insurance agent',
     'term life insurance',
     'whole life insurance',
     'final expense insurance',
-    'independent insurance referral',
-    'Zinabelle Inc'
+    'burial insurance',
+    'Zinabelle Inc',
+    'LifeInsuranceServiceSupport.com',
+    'life insurance quote information',
+    'independent referral service'
   ],
-  authors: [{ name: 'Zinabelle Inc.' }],
-  creator: 'Zinabelle Inc.',
-  publisher: 'Zinabelle Inc.',
-  formatDetection: {
-    email: true,
-    address: true,
-    telephone: true,
-  },
-  openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    url: SITE_CONFIG.url,
-    siteName: SITE_CONFIG.name,
-    title: 'Connect With Licensed Independent Life Insurance Agents | LifeInsuranceServiceSupport.com',
-    description: 'Get help exploring life insurance options. Connect with licensed independent agents for term life, whole life, and final expense coverage.',
-    images: [
-      {
-        url: '/images/hero-family.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Life Insurance Service Support Family Security',
-      }
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Connect With Licensed Independent Life Insurance Agents',
-    description: 'Independent referral service connecting consumers with licensed insurance agents. Operated by Zinabelle Inc.',
-    images: ['/images/hero-family.jpg'],
-  },
+  authors: [{ name: SITE_CONFIG.legalName }],
+  creator: SITE_CONFIG.legalName,
+  publisher: SITE_CONFIG.legalName,
   robots: {
     index: true,
     follow: true,
@@ -61,6 +37,28 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: SITE_CONFIG.url,
+    siteName: SITE_CONFIG.name,
+    title: 'Connect With Appropriately Licensed Independent Insurance Agents | LifeInsuranceServiceSupport.com',
+    description: 'Get help exploring life insurance options. Connect with appropriately licensed independent insurance agents for term life, whole life, and final expense coverage.',
+    images: [
+      {
+        url: '/images/hero-family.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Connect with appropriately licensed independent insurance agents through LifeInsuranceServiceSupport.com',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Connect With Appropriately Licensed Independent Insurance Agents',
+    description: 'Independent referral service connecting consumers with appropriately licensed independent insurance agents. Operated by Zinabelle Inc.',
+    images: ['/images/hero-family.jpg'],
   },
   alternates: {
     canonical: SITE_CONFIG.url,

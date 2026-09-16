@@ -18,7 +18,7 @@ export default function Hero() {
               </div>
 
               <h1 className="hero-title">
-                Connect With a Licensed Independent Insurance Agent
+                Connect With an Appropriately Licensed Independent Insurance Agent
               </h1>
 
               <h2 className="hero-subtitle">
@@ -26,20 +26,24 @@ export default function Hero() {
               </h2>
 
               <p className="hero-desc">
-                <strong>LifeInsuranceServiceSupport.com</strong> is an independent online lead-generation website owned and operated by <strong>Zinabelle Inc</strong>.
+                <strong>LifeInsuranceServiceSupport.com is owned and operated by Zinabelle Inc.</strong>
               </p>
 
               <p className="hero-desc">
-                We help consumers connect with appropriately licensed independent insurance agents who can provide information about available life insurance options based on the consumer&apos;s individual needs and eligibility.
+                LifeInsuranceServiceSupport.com operates as an independent online lead-generation website that helps connect consumers with appropriately licensed independent insurance agents.
               </p>
 
-              {/* High-Converting Call Button - Prominent Above The Fold */}
-              <div style={{ marginTop: '2.25rem', marginBottom: '0.5rem' }}>
+              <p className="hero-desc" style={{ fontSize: '0.9rem', color: 'var(--color-text-muted)', marginTop: '0.5rem' }}>
+                Zinabelle Inc is not an insurance agency or insurance carrier and does not issue, underwrite, approve, price, sell, or administer insurance policies. Zinabelle Inc is not directly affiliated with, sponsored by, endorsed by, or operated by any insurance carrier.
+              </p>
+
+              {/* Call to Connect Button */}
+              <div style={{ marginTop: '2rem', marginBottom: '0.5rem' }}>
                 <a href={`tel:${SITE_CONFIG.phoneRaw}`} className="btn-call-hero">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                   </svg>
-                  <span>Call Now: {SITE_CONFIG.phone}</span>
+                  <span>Call to Connect With an Independent Agent: {SITE_CONFIG.phone}</span>
                 </a>
 
                 <div style={{ display: 'flex', alignItems: 'center', gap: '1.25rem', marginTop: '0.85rem', flexWrap: 'wrap' }}>
@@ -55,12 +59,12 @@ export default function Hero() {
                 </div>
 
                 <p style={{ fontSize: '0.78rem', color: 'var(--color-text-light)', marginTop: '0.75rem', maxWidth: '520px', lineHeight: 1.5 }}>
-                  Calling does not constitute an application for insurance and does not guarantee eligibility, coverage, pricing, or policy issuance.
+                  Submitting a request or calling does not constitute an application for insurance and does not guarantee eligibility, coverage, pricing, or policy issuance.
                 </p>
               </div>
             </div>
 
-            {/* Right Hero Image (Enlarged) */}
+            {/* Right Hero Image */}
             <div>
               <div className="hero-image-large">
                 <Image
@@ -87,7 +91,7 @@ export default function Hero() {
                     Protect What Matters Most
                   </div>
                   <div style={{ fontSize: '0.85rem', color: '#e2e8f0', lineHeight: 1.45 }}>
-                    Speak with licensed independent insurance agents who can help you understand coverage options.
+                    Connect with appropriately licensed independent insurance agents who can help discuss available options.
                   </div>
                 </div>
               </div>
@@ -111,7 +115,7 @@ export default function Hero() {
               <div>
                 <h3 className="hero-trust-bar-title">Independent Agents</h3>
                 <p className="hero-trust-bar-desc">
-                  Connect with appropriately licensed professionals in your area.
+                  Connect with appropriately licensed independent insurance agents.
                 </p>
               </div>
             </div>
@@ -140,9 +144,9 @@ export default function Hero() {
                 </svg>
               </div>
               <div>
-                <h3 className="hero-trust-bar-title">No Carrier Bias</h3>
+                <h3 className="hero-trust-bar-title">Independent From Insurance Carriers</h3>
                 <p className="hero-trust-bar-desc">
-                  Zinabelle Inc is not owned or operated by any insurance carrier.
+                  Zinabelle Inc is not owned or operated by an insurance carrier and does not claim affiliation with any particular insurance carrier.
                 </p>
               </div>
             </div>

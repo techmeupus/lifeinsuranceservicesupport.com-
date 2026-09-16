@@ -10,11 +10,11 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: 'Does it cost anything to request information through this website?',
-    answer: 'No. Submitting an information request through LifeInsuranceServiceSupport.com is completely free for consumers. Any premiums or costs associated with an insurance policy are determined solely by the issuing carrier if you decide to purchase coverage through a licensed agent.'
+    answer: 'No. Submitting an information request through LifeInsuranceServiceSupport.com is completely free for consumers. Any premiums or costs associated with an insurance policy are determined solely by the issuing carrier if you decide to purchase coverage through an appropriately licensed independent insurance agent.'
   },
   {
     question: 'Does submitting a request guarantee that I will receive coverage or approved rates?',
-    answer: 'No. Submitting a request does not constitute an application for insurance and does not guarantee eligibility, coverage, pricing, or policy issuance. Insurance rates, terms, and approvals are subject to underwriting guidelines established exclusively by insurance carriers and reviewed by licensed agents.'
+    answer: 'No. Submitting a request does not constitute an application for insurance and does not guarantee eligibility, coverage, pricing, or policy issuance. Insurance rates, terms, and approvals are subject to underwriting guidelines established exclusively by insurance carriers and reviewed by appropriately licensed independent insurance agents.'
   },
   {
     question: 'What happens after I submit my information?',
@@ -22,6 +22,6 @@ export const FAQS: FaqItem[] = [
   },
   {
     question: 'How do I know which life insurance type is right for me?',
-    answer: 'Term life offers coverage for a specific timeframe (e.g., 10–30 years), often making it the most economical choice for families. Permanent life (like whole life) provides lifelong coverage and cash value accumulation. Final expense focuses specifically on end-of-life costs. A licensed independent insurance agent can help evaluate which option matches your budget and goals.'
+    answer: 'Term life is designed to provide coverage for a specified timeframe (e.g., 10–30 years). Permanent life (such as whole life) is designed to provide permanent coverage when applicable policy requirements are satisfied, and may include a cash value component. Final expense focuses specifically on funeral and burial expenses. An appropriately licensed independent insurance agent can help evaluate which option may fit your budget and goals.'
   }
 ];

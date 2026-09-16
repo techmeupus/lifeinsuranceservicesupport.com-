@@ -14,7 +14,7 @@ export default function WhyChooseUs() {
     },
     {
       title: 'Connection With Licensed Professionals',
-      text: 'We help connect interested consumers with appropriately licensed independent insurance agents.',
+      text: 'We help consumers connect with appropriately licensed independent insurance agents who can discuss available coverage options based on individual eligibility.',
       icon: (
         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
@@ -24,8 +24,8 @@ export default function WhyChooseUs() {
       )
     },
     {
-      title: 'No Carrier Affiliation',
-      text: 'Zinabelle Inc operates independently and does not represent itself as an insurance carrier or as the official website, customer-service department, or policy-service department of any insurance carrier.',
+      title: 'Independent From Insurance Carriers',
+      text: 'Zinabelle Inc is not owned or operated by an insurance carrier and does not claim affiliation with any particular insurance carrier. Zinabelle Inc operates independently and does not represent itself as an insurance carrier or as the official website, customer-service department, claims department, or policy-service department of any insurance carrier.',
       icon: (
         <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
@@ -53,7 +53,7 @@ export default function WhyChooseUs() {
           <span className="section-tag">Consumer First Principles</span>
           <h2 className="section-title">Why Use LifeInsuranceServiceSupport.com?</h2>
           <p className="section-desc">
-            We are dedicated to providing educational transparency and unbiased connections to independent insurance agents.
+            We are committed to providing clear educational information and helping consumers connect with appropriately licensed independent insurance agents.
           </p>
         </div>
 

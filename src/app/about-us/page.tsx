@@ -6,7 +6,7 @@ import { SITE_CONFIG } from '@/config/site';
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: 'About LifeInsuranceServiceSupport.com and Zinabelle Inc. Learn about our mission to connect consumers with licensed independent insurance agents.',
+  description: 'About LifeInsuranceServiceSupport.com and Zinabelle Inc. Learn about our mission to connect consumers with appropriately licensed independent insurance agents.',
 };
 
 export default function AboutUsPage() {
@@ -42,8 +42,8 @@ export default function AboutUsPage() {
           <div className="policy-callout">
             <h3 style={{ marginTop: 0, color: 'var(--color-primary)' }}>Our Core Operating Principles</h3>
             <ul style={{ margin: 0, paddingLeft: '1.25rem' }}>
-              <li><strong>Complete Transparency:</strong> We openly disclose our business identity, operational model, and lack of carrier bias.</li>
-              <li><strong>Independent Network:</strong> We are not owned, operated, or endorsed by any specific insurance carrier.</li>
+              <li><strong>Complete Transparency:</strong> We openly disclose our business identity, operational model, and independence from insurance carriers.</li>
+              <li><strong>Independent Network:</strong> Zinabelle Inc is not owned or operated by an insurance carrier and does not claim affiliation with any particular insurance carrier.</li>
               <li><strong>Consumer Empowerment:</strong> We provide educational information so consumers can make informed decisions before requesting a consultation.</li>
             </ul>
           </div>
@@ -53,9 +53,9 @@ export default function AboutUsPage() {
             <div style={{ background: '#f0fdf4', border: '1px solid #bbf7d0', padding: '1.5rem', borderRadius: 'var(--radius-md)' }}>
               <h4 style={{ color: '#166534', fontSize: '1.1rem', marginBottom: '0.75rem', fontWeight: 700 }}>What We Do</h4>
               <ul style={{ margin: 0, paddingLeft: '1.2rem', fontSize: '0.9rem', color: '#1e293b' }}>
-                <li>Provide objective educational overviews of life insurance categories.</li>
-                <li>Connect consumers with licensed independent agents.</li>
-                <li>Operate a secure, compliant information referral platform.</li>
+                <li>Provide educational overviews of common life insurance categories.</li>
+                <li>Connect consumers with appropriately licensed independent insurance agents.</li>
+                <li>Operate an independent information referral service.</li>
                 <li>Clearly disclose our independent role.</li>
               </ul>
             </div>
@@ -63,9 +63,9 @@ export default function AboutUsPage() {
               <h4 style={{ color: '#991b1b', fontSize: '1.1rem', marginBottom: '0.75rem', fontWeight: 700 }}>What We Don&apos;t Do</h4>
               <ul style={{ margin: 0, paddingLeft: '1.2rem', fontSize: '0.9rem', color: '#1e293b' }}>
                 <li>We do NOT sell, underwrite, or issue insurance policies.</li>
-                <li>We do NOT price premiums or approve applications.</li>
+                <li>We do NOT price premiums or approve insurance applications.</li>
                 <li>We do NOT represent any single insurance company.</li>
-                <li>We do NOT guarantee coverage or underwriting acceptance.</li>
+                <li>We do NOT service existing policies, handle claims, or process payments.</li>
               </ul>
             </div>
           </div>
@@ -83,7 +83,7 @@ export default function AboutUsPage() {
 
           <div style={{ display: 'flex', gap: '1rem', marginTop: '2.5rem', flexWrap: 'wrap' }}>
             <a href={`tel:${SITE_CONFIG.phoneRaw}`} className="btn btn-call">
-              Call An Agent: {SITE_CONFIG.phone}
+              Call to Connect: {SITE_CONFIG.phone}
             </a>
             <Link href="/contact-us" className="btn btn-outline">
               Contact Our Team

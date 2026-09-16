@@ -20,22 +20,25 @@ export default function Footer() {
             </h3>
             
             <p className="disclosure-text">
-              <strong>LifeInsuranceServiceSupport.com</strong> is owned and operated by <strong>Zinabelle Inc</strong>.
+              <strong>LifeInsuranceServiceSupport.com is owned and operated by Zinabelle Inc.</strong>
             </p>
             <p className="disclosure-text">
-              LifeInsuranceServiceSupport.com operates as an independent online lead-generation website that connects consumers with appropriately licensed independent insurance agents.
+              LifeInsuranceServiceSupport.com operates as an independent online lead-generation website that helps connect consumers with appropriately licensed independent insurance agents.
             </p>
             <p className="disclosure-text">
-              <strong>Zinabelle Inc is not an insurance agency or insurance carrier</strong> and does not issue, underwrite, approve, price, sell, or administer insurance policies.
+              <strong>Zinabelle Inc is not an insurance agency or insurance carrier and does not issue, underwrite, approve, price, sell, or administer insurance policies.</strong>
             </p>
             <p className="disclosure-text">
-              Zinabelle Inc is not directly affiliated with, sponsored by, endorsed by, or operated by any insurance carrier.
+              <strong>Zinabelle Inc is not directly affiliated with, sponsored by, endorsed by, or operated by any insurance carrier.</strong>
+            </p>
+            <p className="disclosure-text">
+              Zinabelle Inc operates independently and does not represent itself as an insurance carrier or as the official website, customer-service department, claims department, or policy-service department of any insurance carrier.
             </p>
             <p className="disclosure-text">
               Insurance availability, eligibility, premiums, coverage amounts, policy terms, exclusions, and underwriting requirements vary by consumer, state, insurance carrier, and other applicable factors. Any insurance product is offered and issued only by the applicable insurance carrier through appropriately licensed insurance professionals.
             </p>
             <p className="disclosure-text">
-              <strong>Submitting information through this website does not guarantee insurance coverage or approval.</strong>
+              <strong>Submitting a request, providing information, or calling through this website does not guarantee insurance coverage, approval, or specific pricing.</strong>
             </p>
           </div>
         </div>
@@ -57,7 +60,7 @@ export default function Footer() {
                 />
               </div>
               <p className="footer-brand-desc">
-                An independent lead-generation service operated by Zinabelle Inc. Helping consumers discover educational life insurance resources and connect with licensed independent agents nationwide.
+                An independent lead-generation service operated by Zinabelle Inc. Helping consumers discover educational life insurance resources and connect with appropriately licensed independent insurance agents.
               </p>
               <div style={{ fontSize: '0.8rem', color: '#64748b' }}>
                 Operated by <strong>Zinabelle Inc.</strong>
@@ -72,7 +75,7 @@ export default function Footer() {
                 <li><Link href="/#options">Insurance Options</Link></li>
                 <li><Link href="/#how-it-works">How It Works</Link></li>
                 <li><Link href="/#why-us">Why Choose Us</Link></li>
-                <li><a href={`tel:${SITE_CONFIG.phoneRaw}`}>Call An Agent</a></li>
+                <li><a href={`tel:${SITE_CONFIG.phoneRaw}`}>Call to Connect</a></li>
               </ul>
             </div>
 
