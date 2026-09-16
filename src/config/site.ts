@@ -3,8 +3,8 @@ export const SITE_CONFIG = {
   legalName: "Zinabelle Inc.",
   domain: "lifeinsuranceservicesupport.com",
   url: "https://lifeinsuranceservicesupport.com",
-  phone: "(888) 555-0199",
-  phoneRaw: "+18885550199",
+  phone: "(800) 261-4101",
+  phoneRaw: "+18002614101",
   email: "zinabelleinc@gmail.com",
   address: {
     city: "Orlando",
