@@ -62,8 +62,7 @@ export default function ContactUsPage() {
                   <h4 style={{ fontWeight: 700, color: 'var(--color-primary)', marginBottom: '0.2rem' }}>Corporate Headquarters</h4>
                   <p style={{ color: 'var(--color-text-muted)', fontSize: '0.9rem', margin: 0 }}>
                     {SITE_CONFIG.legalName}<br />
-                    {SITE_CONFIG.address.street}<br />
-                    {SITE_CONFIG.address.city}, {SITE_CONFIG.address.state} {SITE_CONFIG.address.zip}<br />
+                    Orlando, FL<br />
                     United States
                   </p>
                 </div>

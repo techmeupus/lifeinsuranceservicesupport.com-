@@ -13,10 +13,8 @@ export default function JsonLd() {
     description: 'Independent life insurance lead-generation service owned and operated by Zinabelle Inc.',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: SITE_CONFIG.address.street,
       addressLocality: SITE_CONFIG.address.city,
       addressRegion: SITE_CONFIG.address.state,
-      postalCode: SITE_CONFIG.address.zip,
       addressCountry: SITE_CONFIG.address.country
     },
     contactPoint: {

@@ -94,8 +94,8 @@ export default function Footer() {
               <div className="footer-contact-info">
                 <div>
                   <strong>Zinabelle Inc.</strong><br />
-                  {SITE_CONFIG.address.street}<br />
-                  {SITE_CONFIG.address.city}, {SITE_CONFIG.address.state} {SITE_CONFIG.address.zip}
+                  Orlando, FL<br />
+                  United States
                 </div>
                 <div>
                   <strong>Inquiries &amp; Support:</strong><br />

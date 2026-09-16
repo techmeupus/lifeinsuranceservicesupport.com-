@@ -86,8 +86,7 @@ export default function PrivacyPolicyPage() {
           <div className="policy-callout">
             <p><strong>{SITE_CONFIG.legalName}</strong></p>
             <p>Attn: Privacy Compliance</p>
-            <p>{SITE_CONFIG.address.street}</p>
-            <p>{SITE_CONFIG.address.city}, {SITE_CONFIG.address.state} {SITE_CONFIG.address.zip}</p>
+            <p>Orlando, FL</p>
             <p>Email: <a href={`mailto:${SITE_CONFIG.email}`}>{SITE_CONFIG.email}</a></p>
             <p>Phone: {SITE_CONFIG.phone}</p>
           </div>

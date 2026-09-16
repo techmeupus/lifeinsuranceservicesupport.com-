@@ -5,13 +5,12 @@ export const SITE_CONFIG = {
   url: "https://lifeinsuranceservicesupport.com",
   phone: "(888) 555-0199",
   phoneRaw: "+18885550199",
-  email: "support@lifeinsuranceservicesupport.com",
+  email: "zinabelleinc@gmail.com",
   address: {
-    street: "1309 Coffeen Avenue STE 1200",
-    city: "Sheridan",
-    state: "WY",
-    zip: "82801",
-    country: "US"
+    city: "Orlando",
+    state: "FL",
+    country: "US",
+    formatted: "Orlando, FL"
   },
   operatingHours: "Monday - Friday: 8:00 AM – 8:00 PM EST",
   year: 2026,
