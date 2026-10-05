@@ -1,9 +1,17 @@
+'use client';
+
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { SITE_CONFIG } from '@/config/site';
 
 export default function Footer() {
+  const pathname = usePathname();
+  if (pathname === '/loans' || pathname?.startsWith('/loans')) {
+    return null;
+  }
+
   return (
     <>
       {/* Important Disclosure Section (Strict Google Ads Compliance) */}

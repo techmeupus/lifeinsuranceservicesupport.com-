@@ -14,6 +14,7 @@ export const SITE_CONFIG = {
   },
   operatingHours: "Monday - Friday: 8:00 AM – 8:00 PM EST",
   year: 2026,
+  googleSheetWebhookUrl: "https://script.google.com/macros/s/AKfycbwSBsMr_BYXZkwcPwCKEsl9i565G9839Lpgky-w8IxCHk82wWiXn4h-Gy3AFc4DARSf4Q/exec",
   colors: {
     primary: "#0a3866", // Navy Blue matching logo
     primaryDark: "#062343",
